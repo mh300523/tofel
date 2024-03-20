@@ -1,0 +1,233 @@
+
+.recomnd > li > a > span
+{
+    margin-right: 9px;
+}
+.recomnd > li:first-child
+{
+    margin-right: 72px;
+}
+.hlang_social > li:not(:last-child)
+{
+    margin-right: 6px;
+}
+header .nav_bar > li > a.active:after
+{
+    left: 0;
+}
+.changed
+{
+    left: 0;
+}
+.search_icon
+{
+    right: 25px;
+}
+header .hcon_us
+{
+    text-align: left;
+}
+header .hcon_us > span
+{
+    margin-right: 6px;
+}
+.main_slider .swiper-button-next:after,.pro_slider .swiper-button-next:after,.agents_slider .swiper-button-next:after
+{
+    content: '\e876';
+}
+.main_slider .swiper-button-prev:after,.pro_slider .swiper-button-prev:after,.agents_slider .swiper-button-prev:after
+{
+    content: '\e875';
+}
+.main_slider .swiper-button-prev
+{
+    left: 39px;
+}
+.main_slider .swiper-button-next
+{
+    right: 39px;
+}
+.bus_cer > li:not(:last-child)
+{
+    margin-right: 20px;
+}
+.sit_dsc
+{
+    text-align: left;
+    padding-right: 57px;
+}
+.sit_dsc .b_title > .btit_icon
+{
+    margin-right: 10px;
+}
+.sit_dsc .b_more
+{
+    text-align: right;
+}
+.itpr_overlay,.notg_desc
+{
+    text-align: left;
+}
+.pro_slider .swiper-button-next,.agents_slider .swiper-button-next
+{
+    right: -80px;
+}
+.pro_slider .swiper-button-prev,.agents_slider .swiper-button-prev
+{
+    left: -80px;
+}
+.pro_slider .swiper-button-next:after,.agents_slider .swiper-button-next:after
+{
+    content: '\e876';
+}
+.pro_slider .swiper-button-prev:after,.agents_slider .swiper-button-prev:after
+{
+    content: '\e875';
+}
+.empm_cont .empjo_us > a
+{
+    text-align: right;
+    width: 180px;
+}
+.empm_cont .empjo_us > a > i
+{
+    margin-left: 20px;
+}
+.latnew_img .latnew_date
+{
+    left: 10px;
+}
+.latnew_cont .latnew_name > a,footer 
+{
+    text-align: left;
+}
+footer .fast_links
+{
+    padding: 0;
+}
+footer .ffcopy_cont
+{
+    text-align: right;
+}
+.fgd_cont
+{
+    padding-right: 15px;
+}
+footer .fconus_icons > li > span
+{
+    margin-right: 7px;
+}
+.fllous_icons > li
+{
+    margin-right: 6px;
+}
+.ff_maillist .fm_check
+{
+    right: 5px;
+}
+
+
+
+@media (min-width:992px) and (max-width:1199px)	
+{
+    .pro_slider .swiper-button-next,.agents_slider .swiper-button-next
+    {
+        right: -18px;
+    }
+    .pro_slider .swiper-button-prev,.agents_slider .swiper-button-prev
+    {
+        left: -18px;
+    }
+    .serv_cont .servanc
+    {
+        width: 90%;
+        font-size: 14px;
+    }
+    .serv_cont .servanc > i
+    {
+        font-size: 21px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)	
+{
+    .recomnd > li:first-child
+    {
+        margin-right: 30px;
+    }
+    .sit_dsc
+    {
+        text-align: center;
+        padding-right: 0;
+    }
+    .sit_dsc .b_more
+    {
+        text-align: center;
+    }
+    .serv_cont .servanc
+    {
+        font-size: 12px;
+        width: 100%;
+    }
+}
+
+@media (max-width:991px)	
+{
+    footer,.ff_copy_own .ffcopy_cont
+    {
+        text-align: center;
+    }
+    .fgd_cont
+    {
+        padding-right: 0;
+    }
+    .fast_links .fftitle.fsm_title,.ffdivide_nk
+    {
+        text-align: left;
+    }
+    .fast_links .fftitle.fsm_title:after
+    {
+        right: 35px;
+    }
+}
+
+@media (max-width:767px)	
+{
+    .closebtn
+    {
+        right: 20px;
+    }
+    .h_lang.sm
+    {
+        left: 25px;
+    }
+    header .nav_bar
+    {
+        text-align: left;
+    }
+    .main_nav
+    {
+        left: 0;
+    }
+    #navbtn
+    {
+        margin-left: 10px;
+    }
+    .sit_dsc
+    {
+        text-align: center;
+        padding-right: 0;
+    }
+    .sit_dsc .b_more
+    {
+        text-align: center;
+    }
+    .bus_cer > li:not(:last-child)
+    {
+        margin-right: 5px;
+    }
+    .serv_cont .servanc
+    {
+        font-size: 15px;
+    }
+}
